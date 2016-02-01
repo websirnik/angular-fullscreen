@@ -1,5 +1,5 @@
 {
-  "name": "angular-fullscreen",
+  "name": "@kariudo/angular-fullscreen",
   "version": "1.0.1",
   "description": "An AngularJS service and a directive to quickly use the HTML5 fullscreen API",
   "main": "src/angular-fullscreen.js",
@@ -8,7 +8,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/fabiobiondi/angular-fullscreen"
+    "url": "git://github.com/kariudo/angular-fullscreen"
   },
   "license": "MIT"
 }
