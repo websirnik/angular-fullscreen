@@ -31,7 +31,7 @@
                   if (/Version\/[\d]{1,2}(\.[\d]{1,2}){1}(\.(\d){1,2}){0,1} Safari/.test(navigator.userAgent)) {
                      element.webkitRequestFullscreen();
                   } else {
-                     element.webkitRequestFullscreen(isKeyboardAvailbleOnFullScreen);
+                     element.webkitRequestFullscreen();
                   }
                } else if (element.msRequestFullscreen) {
                   element.msRequestFullscreen();
