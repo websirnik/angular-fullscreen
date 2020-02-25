@@ -12,8 +12,8 @@
 
          // listen event on document instead of element to avoid firefox limitation
          // see https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Using_full_screen_mode
-         $document.on('fullscreenchange webkitfullscreenchange mozfullscreenchange MSFullscreenChange', function(){
-            emitter.$emit('FBFullscreen.change', serviceInstance.isEnabled());
+         $document.on('fullscreenchange webkitfullscreenchange mozfullscreenchange MSFullscreenChange', function(event){
+            emitter.$emit('FBFullscreen.change', serviceInstance.isEnabled(), event, serviceInstance);
          });
 
          var serviceInstance = {
